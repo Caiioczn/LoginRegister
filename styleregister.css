@@ -1,6 +1,21 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Noto+Sans+Multani&family=Playfair+Display&family=Roboto&display=swap');
+
+*{
     margin: 0;
-    font-family: 'Noto Sans Multani',sans-serif;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
     background-color: #B24633;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.card{
+    background: #913b19;
+}
