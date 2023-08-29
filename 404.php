@@ -27,7 +27,7 @@
                 </div>
                 <button type="submit" class="buttonE">ENTRAR</button>
                 <p>Não tem conta?
-                <a href="Register.html" class="reg">Registre-se aqui</a>
+                <a href="Register.php" class="reg">Registre-se aqui</a>
                 </p>
                 
             </div>
