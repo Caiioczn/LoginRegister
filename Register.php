@@ -12,7 +12,7 @@
     <div class="container">
         <div class="card">
         <form method="POST" action="config.php">
-            <a href="Login.html" class="back">←</a>
+            <a href="404.php" class="back">←</a>
             <h1>REGISTRE-SE</h1>
             <div class="textfield">
                 <label for="nome">Nome:</label>
