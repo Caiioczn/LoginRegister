@@ -25,7 +25,12 @@ body{
 }
 
 .left-login > h1 { 
-    color: #dbcfca;
+    color: white;
+    font-size: 2vw;
+}
+
+.image{
+    width: 35vw;
 }
 
 .righ-login{
@@ -37,7 +42,7 @@ body{
 }
 
 .card-login{
-    width: 60%;
+    width: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +50,7 @@ body{
     padding: 30px 35px;
     background: #913b19;
     border-radius: 20px;
-    box-shadow: 0px 10px 40px #00000056;
+    box-shadow: 0px 10px 40px white;
 }
 
 .card-login > h1{
@@ -87,6 +92,7 @@ body{
 }
 
 .buttonE{
+    color: white;
     width: 100%;
     padding: 16px 0px;
     margin: 25px;
@@ -97,4 +103,37 @@ body{
     background-color: #B24633;
     cursor: pointer;
     box-shadow: 8px 10px 40px -12px;
+}
+
+@media only screen and (max-width: 950px){
+    .login-inputs{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+    .left-login > h1{
+        display: none;
+    }
+
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+
+    .righ-login{
+        width: 100%;
+        height: auto;
+    }
+
+    .imagem{
+        width: 50vh;
+    }
+
+    .login-inputs{
+        width: 90%;
+    }
 }
