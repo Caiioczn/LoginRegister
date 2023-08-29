@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Noto+Sans+Multani&family=Playfair+Display&display=swap');
+
+
 body{
     margin: 0;
+    font-family: 'Noto Sans Multani',sans-serif;
 }
 
 .loginPage{
@@ -57,6 +61,7 @@ body{
     flex-direction: column;
     justify-content: center;
     margin: 10px ;
+
 }
 
 .textfield > input{
@@ -91,4 +96,5 @@ body{
     letter-spacing: 3px;
     background-color: #B24633;
     cursor: pointer;
+    box-shadow: 8px 10px 40px -12px;
 }
