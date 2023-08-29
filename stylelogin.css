@@ -105,6 +105,10 @@ body{
     box-shadow: 8px 10px 40px -12px;
 }
 
+p{
+    color: white;
+}
+
 @media only screen and (max-width: 950px){
     .login-inputs{
         width: 85%;
