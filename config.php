@@ -26,6 +26,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         if ($conn->query($sql) === TRUE) {
             $mensagem = "Registro inserido com sucesso.";
+            $conn -> close();
+
+            header("Location: 404.php");
+            exit();
+
         } else {
             $mensagem = "Erro ao inserir registro: " . $conn->error;
         }
