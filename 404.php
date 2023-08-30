@@ -11,6 +11,7 @@
 <body>
     <div class="loginPage">
         <div class="left-login">
+        <form method="POST" action="testLogin.php">
             <h1>Faça seu pedido <br> e seja feliz!</h1>
             <img src="fried-chicken-animate.svg" class="image" alt="chicken">
         </div>
@@ -32,6 +33,7 @@
                 
             </div>
         </div>
+        </form>
     </div>
     
 </body>

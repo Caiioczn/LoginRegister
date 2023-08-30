@@ -31,11 +31,6 @@
             </div>
         </form>
         </div>
-            <?php
-                if (isset($mensagem)){
-                    echo $mensagem;
-                }
-            ?>
     </div>
 </body>
 </html>
