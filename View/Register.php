@@ -7,12 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleregister.css">
     <title>Registre-se</title>
-</head>
-<body>
+</head><body>
     <div class="container">
         <div class="card">
-        <form method="POST" action="config.php">
-            <a href="View\404.php" class="back">←</a>
+        <form method="POST" action="../Controller/controller.php"> 
+            <a href="404.php" class="back">←</a>
             <h1>REGISTRE-SE</h1>
             <div class="textfield">
                 <label for="nome">Nome:</label>

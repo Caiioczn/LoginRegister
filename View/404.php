@@ -9,7 +9,7 @@
     <title>Login</title>
 </head>
 <body>
-    <form method="POST" action="Controller\testLogin.php">
+    <form method="POST" action="../Controller/controller_login.php"> 
     <div class="loginPage">
         <div class="left-login">
             <h1>Faça seu pedido <br> e seja feliz!</h1>
@@ -28,7 +28,7 @@
                 </div>
                 <button type="submit" class="buttonE">ENTRAR</button>
                 <p>Não tem conta?
-                <a href="Controller\Register.php" class="reg">Registre-se aqui</a>
+                <a href="../Controller/Register.php" class="reg">Registre-se aqui</a>
                 </p>
                 
             </div>
